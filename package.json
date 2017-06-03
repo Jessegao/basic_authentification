@@ -1,0 +1,26 @@
+{
+  "name": "basic_user_auth",
+  "version": "1.0.0",
+  "description": "api takes in and outputs json requests",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jessegao/basic_authentification.git"
+  },
+  "keywords": [
+    "authentification"
+  ],
+  "author": "Jesse Gao",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.28"
+  }
+}
